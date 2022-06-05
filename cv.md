@@ -63,3 +63,18 @@ async def load_name(message : types.Message, state : FSMContext):
 ```
 
 --------------------------------------
+
+## Education
+
+* Belarusian State College of Communications
+    + Computing machines, systems and networks
+* Belarusian State University of Informatics and Radioelectronics (BSUIR)
+    + Radio-informatics
+
+---------------------------------------
+
+## Languages
+
+* Russian
+* English
+* Belarusian
