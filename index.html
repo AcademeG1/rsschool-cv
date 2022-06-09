@@ -14,7 +14,7 @@
             <nav class="nav">
                 <ul class="nav-list">
                     <li class="nav-item"><a href="#summary" class="nav-link">#Summary</a></li>
-                    <li class="nav-item"><a href="#my-future-skills" class="nav-link">#My Future Skills</a></li>
+                    <li class="nav-item"><a href="#my-future-skills" class="nav-link">#My_Future_Skills</a></li>
                     <li class="nav-item"><a href="#code-example" class="nav-link">#Code_Example</a></li>
                     <li class="nav-item"><a href="#my-current-skills" class="nav-link">#My_Current_Skills</a></li>
                     <li class="nav-item"><a href="#education" class="nav-link">#Education</a></li>
@@ -27,33 +27,79 @@
         <div class="container">
             <section class="section" id="profile">
                 <p class="design-html">&lt;HTML&gt;</p>
-                <h1 class="section-title">//Michail Ignatovich</h1>
+                <h1 class="section-h1">//Michail Ignatovich</h1>
                 <p class="design-tag">&lt;title&gt; Front-end Developer &lt;/title&gt;</p>
                 <p class="design-tag">&lt;body&gt;</p>
                 <!-- <img src="./assets/img/cv-photo.png" alt="avatar" width="350px" height="400px"> -->
                 <!--span для отдельного выделения текста где-то внутри-->
             </section>
-            <section class="section" id="summary">
-                <h2 class="section-title">&lt;summary&gt;</h2>
-                <p> I am currently studying at the university. I'm just starting my career path. At the same time I study FrontEnd in courses from RSSchool. 
+            <section class="section" id="Summary">
+                <h2 class="section-title">&lt;Summary&gt;</h2>
+                <span class="design-tag">&lt;p&gt;</span>
+                <p class="section-paragraf">
+                    I am currently studying at the university. I'm just starting my career path. At the same time I study FrontEnd in courses from RSSchool. 
                     My goal is to learn, to learn everything new and exciting. I like to write code and read books. 
                     I spend a lot of time doing my favorite things. My strong point is problem solving, perseverance and quick learning in various fields. 
-                    I would like to gain knowledge and skills that will be enough for employment in the company and successful development in the future.</p>
+                    I would like to gain knowledge and skills that will be enough for employment in the company and successful development in the future.
+                </p>
+                <span class="design-tag">&lt;/p&gt;</span>
+                <h2 class="section-title grey">&lt;/summary&gt;</h2>
             </section>
             <section class="section" id="my-future-skills">
-                <h2 class="section-title">My Future Skills</h2>
+                <h2 class="section-title">&lt;My_Future_Skills&gt;</h2>
+                <ul class="skills-list">
+                    <li class="section-item">HTML</li>
+                    <li class="section-item">CSS(Framework Bootstrap, Preprocessor SCSS)</li>
+                    <li class="section-item">JavaScript (Fundamentals,Functional Programming, OOP, Asynchronous JavaScript, ES6+,DOM)</li>
+                    <li class="section-item">Version control: Git (service GitHub)</li>
+                </ul>
+                <h2 class="section-title grey">&lt;/My_Future_Skills&gt;</h2>
             </section>
             <section class="section" id="code-example">
-                <h2 class="section-title">Code Example</h2>
+                <h2 class="section-title">&lt;Code_Example&gt;</h2>
+                <pre class="section-paragraf"><code>
+function factorial(n) {
+    if(n &lt; 0) return null;
+    if (n &lt;= 1) return 1;
+    return n * factorial(n-1);
+}</code></pre>
+                <h2 class="section-title grey">&lt;/Code_Example&gt;</h2>
             </section>
             <section class="section" id="my-current-skills">
-                <h2 class="section-title">My Current Skills</h2>
+                <h2 class="section-title">&lt;My_Current_Skills&gt;</h2>
+                <ul class="skills-list">
+                    <li class="section-item">C++ (basic knowledge) </li>
+                    <li class="section-item">Python(Fundamentals, OOP, Async) - Django Framework(basic knowledge)</li>
+                    <li class="section-item">SQLite(basic knowledge)</li>
+                    <li class="section-item">Windows OS, Linux(Ubuntu), Mac OS</li>
+                    <li class="section-item">Figma</li>
+                    <li class="section-item">Editors: Brackets, PyCharm, PhpShtorm, VSCode.</li>
+                </ul>
+                <h2 class="section-title grey">&lt;/My_Current_Skills&gt;</h2>
             </section>
             <section class="section" id="education">
-                <h2 class="section-title">Education</h2>
+                <h2 class="section-title">&lt;Education&gt;</h2>
+                <ul class="education-list">
+                    <li class="education-item">Belarusian State College of Communications</li>
+                    <ul class="education-list">
+                        <li class="education-item">Computing machines, systems and networks</li>
+                    </ul>
+                    <li class="education-item">Belarusian State University of Informatics and Radioelectronics (BSUIR)</li>
+                    <ul class="education-list">
+                        <li class="education-item">Radio-informatics</li>
+                    </ul>
+                </ul>
+                <h2 class="section-title grey">&lt;/Education&gt;</h2>
             </section>
             <section class="section" id="languages">
-                <h2 class="section-title">Languages</h2>
+                <h2 class="section-title">&lt;Languages&gt;</h2>
+                    <ul class="languages-list">
+                        <li class="language-item">Russian</li>
+                        <li class="language-item">English</li>
+                        <li class="language-item">Belarusian</li>
+                    </ul>
+                <h2 class="section-title grey">&lt;/Languages&gt;</h2>
+                <p class="design-html">&lt;/HTML&gt;</p>
             </section>
         </div>
     </main>

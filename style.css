@@ -45,7 +45,7 @@ body {
 
 .nav-link:hover{
     color: #3DFFDB;
-    line-height: 56px;
+    /* line-height: 56px; */
     transition: color 1s;
 }
 
@@ -78,6 +78,32 @@ h1 {
     margin: 0;
     line-height: 56px;
     color: #3DFFDB;
+}
+
+h2 {
+    margin: 0;
+}
+
+.section-title {
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 28px;
+    color: #0094FF;
+
+}
+
+.section-paragraf {
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 23px;
+    padding: 0 0 0 50px;
+    width: 85%;
+    margin: 0 0 20px 0;
+    color: #FFFFFF;
+}
+
+.grey {
+    color: #696969;
 }
 
 .footer {
