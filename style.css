@@ -23,7 +23,7 @@ body {
 }
 
 .header {
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 .nav-list {
@@ -35,17 +35,52 @@ body {
 
 .nav-link {
     padding: 0 20px;
-    line-height: 50px;
+    line-height: 30px;
     text-decoration: none;
     color: #696969;
     font-size: 25px;
-    transition: 0.3s;
+    text-shadow: 2px 2px 2px black;
+    transition: color 1s;
+}
+
+.nav-link:hover{
+    color: #3DFFDB;
+    line-height: 56px;
+    transition: color 1s;
 }
 
 .main {
-    border: 1px solid red;
+    /* border: 1px solid red; */
+    /* margin: 0; */
+}
+
+.design-html {
+    font-size: 45px;
+    margin: 0;
+}
+
+.design-tag {
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 30px;
+    color: #696969;
+    text-shadow: 0px 1px 2px black;
+    margin: 0;
+}
+
+.section {
+    padding: 0 0 0 150px;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 55px;
+    margin: 0;
+    line-height: 56px;
+    color: #3DFFDB;
 }
 
 .footer {
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
+
