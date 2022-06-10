@@ -1,1 +1,256 @@
-html{height: 1px;}
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #181616;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: 'Arial', sans-serif;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.nav-list {
+    padding-left: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+.nav-link {
+    padding: 0 15px;
+    /* line-height: 30px; */
+    text-decoration: none;
+    color: #696969;
+    font-size: 25px;
+    text-shadow: 
+		-0   -1px 0   #000000,
+		 0   -1px 0   #000000,
+		-0    1px 0   #000000,
+		 0    1px 0   #000000,
+		-1px -0   0   #000000,
+		 1px -0   0   #000000,
+		-1px  0   0   #000000,
+		 1px  0   0   #000000,
+		-1px -1px 0   #000000,
+		 1px -1px 0   #000000,
+		-1px  1px 0   #000000,
+		 1px  1px 0   #000000,
+		-1px -1px 0   #000000,
+		 1px -1px 0   #000000,
+		-1px  1px 0   #000000,
+		 1px  1px 0   #000000;
+    transition: color 1s;
+}
+
+.nav-link:hover{
+    color: #3DFFDB;
+    /* line-height: 40px; */
+    transition: color 1s;
+}
+
+.design-html {
+    font-size: 45px;
+    margin: 0;
+    text-shadow: 
+		-0   -1px 0   #000000,
+		 0   -1px 0   #000000,
+		-0    1px 0   #000000,
+		 0    1px 0   #000000,
+		-1px -0   0   #000000,
+		 1px -0   0   #000000,
+		-1px  0   0   #000000,
+		 1px  0   0   #000000,
+		-1px -1px 0   #000000,
+		 1px -1px 0   #000000,
+		-1px  1px 0   #000000,
+		 1px  1px 0   #000000,
+		-1px -1px 0   #000000,
+		 1px -1px 0   #000000,
+		-1px  1px 0   #000000,
+		 1px  1px 0   #000000;
+    color:#393939;
+}
+
+.design-tag {
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 40px;
+    color: #696969;
+    text-shadow: 
+		-0   -1px 0   #000000,
+		 0   -1px 0   #000000,
+		-0    1px 0   #000000,
+		 0    1px 0   #000000,
+		-1px -0   0   #000000,
+		 1px -0   0   #000000,
+		-1px  0   0   #000000,
+		 1px  0   0   #000000,
+		-1px -1px 0   #000000,
+		 1px -1px 0   #000000,
+		-1px  1px 0   #000000,
+		 1px  1px 0   #000000,
+		-1px -1px 0   #000000,
+		 1px -1px 0   #000000,
+		-1px  1px 0   #000000,
+		 1px  1px 0   #000000;
+    margin: 0;
+}
+
+.section {
+    padding: 0 0 0 150px;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 55px;
+    margin: 0;
+    line-height: 56px;
+    color: #3DFFDB;
+}
+
+h2 {
+    margin: 0;
+    
+}
+
+.section-title {
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 28px;
+    color: #0094FF;
+    margin-top: 5px;
+}
+
+.section-paragraf {
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 30px;
+    padding: 0 0 0 50px;
+    width: 85%;
+    margin: 5px 0 5px 0;
+    color: #a5a5a5;
+}
+
+.grey {
+    color: #696969;
+    margin-bottom: 10px;
+    text-shadow: 
+		-0   -1px 0   #000000,
+		 0   -1px 0   #000000,
+		-0    1px 0   #000000,
+		 0    1px 0   #000000,
+		-1px -0   0   #000000,
+		 1px -0   0   #000000,
+		-1px  0   0   #000000,
+		 1px  0   0   #000000,
+		-1px -1px 0   #000000,
+		 1px -1px 0   #000000,
+		-1px  1px 0   #000000,
+		 1px  1px 0   #000000,
+		-1px -1px 0   #000000,
+		 1px -1px 0   #000000,
+		-1px  1px 0   #000000,
+		 1px  1px 0   #000000;
+}
+
+.pre-code {
+    margin-bottom: 15px;
+}
+
+.col {
+    color: #3DFFDB;
+}
+
+.main-list {
+    list-style: none;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 17px;
+    color: #a5a5a5;
+    margin: 0;
+}
+
+.photo-cv {
+    margin: 50px 0 0 100px;
+    border-radius: 5px;
+}
+
+#profile {
+    display: flex;
+    align-items: center;
+}
+
+.link {
+    text-decoration: none;
+    padding: 108px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 0 0 150px;
+    align-items: center;
+    color: #a5a5a5;
+}
+
+.footer-contact-links {
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    width: 70%;
+    align-items: center;
+}
+
+.footer_copyright p {
+    font-size: 25px;
+    line-height: 1.8;
+}
+
+.footer-contact-link-item a {
+    text-decoration: none;
+    font-size: 25px;
+    color: #a5a5a5;
+}
+
+.footer-contact-link-item, a:hover {
+    color: #3DFFDB;
+}
+
+.script-keyword-fun {
+    color: blueviolet;
+}
+
+.script-keyword-fac {
+    color: rgb(43, 226, 144);
+}
+
+.script-keyword-if {
+    color: rgb(229, 165, 27);
+}
+
+.script-keyword-return {
+    color: yellow;
+}
+
+.script-keyword-simv {
+    color: #6bbadf;
+}
+
+.ul {
+    margin: 0;
+}
