@@ -7,7 +7,7 @@ html {
 }
 
 body {
-    background-color: #393939;;
+    background-color: #181616;
     min-height: 100vh;
     margin: 0;
     padding: 0;
@@ -48,6 +48,7 @@ body {
 .design-html {
     font-size: 45px;
     margin: 0;
+    color:#393939;
 }
 
 .design-tag {
@@ -80,7 +81,7 @@ h2 {
     font-size: 25px;
     line-height: 28px;
     color: #0094FF;
-
+    margin-top: 5px;
 }
 
 .section-paragraf {
@@ -90,11 +91,12 @@ h2 {
     padding: 0 0 0 50px;
     width: 85%;
     margin: 0 0 20px 0;
-    color: #FFFFFF;
+    color: #a5a5a5;
 }
 
 .grey {
     color: #696969;
+    margin-bottom: 10px;
 }
 
 .col {
@@ -106,7 +108,7 @@ h2 {
     font-weight: 400;
     font-size: 23px;
     line-height: 17px;
-    color: #FFFFFF;
+    color: #a5a5a5;
 }
 
 .photo-cv {
@@ -123,6 +125,7 @@ h2 {
     justify-content: space-between;
     padding: 0 0 0 150px;
     align-items: center;
+    color: #a5a5a5;
     /* width: 100%; */
 }
 
@@ -136,16 +139,36 @@ h2 {
 }
 
 .footer_copyright p {
-    font-size: 30px;
+    font-size: 25px;
     line-height: 1.8;
 }
 
 .footer-contact-link-item a {
     text-decoration: none;
-    font-size: 30px;
-    color: black;
+    font-size: 25px;
+    color: #a5a5a5;
 }
 
 .footer-contact-link-item, a:hover {
     color: #3DFFDB;
+}
+
+.script-keyword-fun {
+    color: blueviolet;
+}
+
+.script-keyword-fac {
+    color: rgb(43, 226, 144);
+}
+
+.script-keyword-if {
+    color: rgb(229, 165, 27);
+}
+
+.script-keyword-return {
+    color: yellow;
+}
+
+.script-keyword-simv {
+    color: #6bbadf;
 }
